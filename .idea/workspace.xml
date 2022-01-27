@@ -1,17 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bdb88e0-0dfc-4bbc-b918-7677bde5833f" name="Default Changelist" comment="" />
+    <list default="true" id="3bdb88e0-0dfc-4bbc-b918-7677bde5833f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/api.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/swagger/api.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpDebugGeneral" xdebug_debug_port="9003" listening_started="true">
+    <xdebug_debug_ports port="9003" />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="http://sym6api" id="83f54416-ac7b-4f51-9ca6-35696e68043c" name="sym6api" />
+    </servers>
+  </component>
+  <component name="PhpWebServerValidation" path_to_validation_script="E:\OpenServer\domains\sym6api" selected_validation_type="LOCAL" web_path_to_validation_script="http://sym6api/test.php" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
@@ -145,6 +167,7 @@
       <path value="$PROJECT_DIR$/vendor/psr/link" />
     </include_path>
   </component>
+  <component name="PhpXdebugProxy" ide_key="PHPSTORM" host="127.0.0.1" port="9003" />
   <component name="ProjectId" id="24GjYBgkv5oaCIEk51dF7fsnERO" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -153,12 +176,30 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/config/packages" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.php.debug.xdebug.proxy" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\OpenServer\domains\sym6api\config\packages" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Web Page.sym6apiWeb">
     <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration name="sym6api" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" filter_connections="FILTER" server_name="sym6api" session_id="PHPSTORM">
+      <method v="2" />
+    </configuration>
+    <configuration name="sym6apiWeb" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="sym6api">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="PHP Remote Debug.sym6api" />
+      <item itemvalue="PHP Web Page.sym6apiWeb" />
+      <item itemvalue="PHPUnit.phpunit.xml.dist" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -168,18 +209,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643263862161</updated>
-      <workItem from="1643263863198" duration="1427000" />
+      <workItem from="1643263863198" duration="3457000" />
+      <workItem from="1643267367375" duration="2622000" />
+      <workItem from="1643270217258" duration="667000" />
+      <workItem from="1643271636796" duration="89000" />
+      <workItem from="1643271742060" duration="3038000" />
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="669" y="272" width="581" height="534" key="find.popup" timestamp="1643265180853">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="669" y="272" width="581" height="534" key="find.popup/0.0.1920.1080/3840.0.1680.1050@0.0.1920.1080" timestamp="1643265180853" />
-    <state x="624" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1643264984448">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="624" y="237" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/3840.0.1680.1050@0.0.1920.1080" timestamp="1643264984448" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/vendor/harmbandstra/swagger-ui-bundle/src/Controller/DocsController.php</url>
+          <line>61</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/public/index.php</url>
+          <line>7</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/public/index.php</url>
+          <line>6</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/public/index.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/public/test.php</url>
+          <line>1</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

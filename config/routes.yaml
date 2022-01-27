@@ -1,3 +1,7 @@
+_swagger-ui:
+    resource: '@HBSwaggerUiBundle/Resources/config/routing.yml'
+    prefix: /
+
 controllers:
     resource: ../src/Controller/
     type: annotation
@@ -5,7 +9,3 @@ controllers:
 kernel:
     resource: ../src/Kernel.php
     type: annotation
-
-_swagger-ui:
-    resource: '@HBSwaggerUiBundle/Resources/config/routing.yml'
-    prefix: /

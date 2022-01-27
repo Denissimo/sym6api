@@ -1,0 +1,49 @@
+user.data:
+  path: /my/userdata
+  controller: App\Controller\CurrentUserController::userData
+  methods: [GET]
+
+user.data.update:
+  path: /my/userdata
+  controller: App\Controller\CurrentUserController::updateUserData
+  methods: [PUT]
+
+tracks.list:
+  path: /my/list/tracks
+  controller: App\Controller\CurrentUserController::listTracks
+  methods: [GET]
+
+tracks.load:
+  path: /my/data/tracks
+  controller: App\Controller\CurrentUserController::loadTracks
+  methods: [GET]
+
+applications.list:
+  path: /my/list/applications
+  controller: App\Controller\CurrentUserController::listApplications
+  methods: [GET]
+
+applications.load:
+  path: /my/data/applications
+  controller: App\Controller\CurrentUserController::loadApplications
+  methods: [GET]
+
+aircrafts.list:
+  path: /my/list/aircrafts
+  controller: App\Controller\CurrentUserController::listAircrafts
+  methods: [GET]
+
+aircrafts.load:
+  path: /my/data/aircrafts
+  controller: App\Controller\CurrentUserController::loadAircrafts
+  methods: [GET]
+
+aircraft.load.page:
+  path: /my/data/aircrafts/{page}
+  controller: App\Controller\CurrentUserController::loadAircraftsPaginated
+  methods: [GET]
+
+owners.list:
+  path: /my/list/owners
+  controller: App\Controller\CurrentUserController::listOwners
+  methods: [GET]

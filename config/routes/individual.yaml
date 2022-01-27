@@ -1,0 +1,21 @@
+individual.add:
+  path: /individual/add
+  controller: App\Controller\IndividualController::addIndividual
+  methods: [POST]
+
+individual.get:
+  path: /individual/{id}
+  controller: App\Controller\IndividualController::loadIndividual
+  methods: [GET]
+
+individual.delete:
+  path: /individual/{id}
+  controller: App\Controller\IndividualController::deleteIndividual
+  methods: [DELETE]
+
+individual.edit:
+  path: /individual/{id}
+  controller: App\Controller\IndividualController::updateIndividual
+  methods: [PUT]
+
+
