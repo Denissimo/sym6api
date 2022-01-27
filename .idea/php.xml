@@ -136,7 +136,7 @@
   </component>
   <component name="PhpProjectServersManager">
     <servers>
-      <server host="http://sym6api" id="83f54416-ac7b-4f51-9ca6-35696e68043c" name="sym6api" />
+      <server host="sym6api" id="83f54416-ac7b-4f51-9ca6-35696e68043c" name="sym6api" />
     </servers>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />
